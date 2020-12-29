@@ -1,0 +1,213 @@
+/*RESET*/
+@import url("reset.css"); /* This is to reset all default browser CSS to none.*/
+
+
+/*SCROLLBAR*/
+
+/* width */
+::-webkit-scrollbar {
+  width: 32px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0d1e4c; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #3874c1; 
+}
+
+
+
+
+/*BUILDING THE MENUS*/
+
+.musicplayer {
+ position: static;
+ left: 0px;
+ top: 0px;
+ z-index: -2;
+ overflow: hidden;
+}
+
+
+.wallpaper {
+  position: static;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+
+.characterholder {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 1;
+}	
+
+
+.statsholder {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 2;
+}
+
+
+.itembankoverlay {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 4;
+}
+
+
+.menutabs {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 3;
+}
+
+
+.submenu {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 5;
+}
+
+
+.itembank {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: 3;
+}
+
+
+/*BUILDING THE CHARACTER LAYERS AND ITEMS*/
+
+
+/*CHARACTER HEADS*/
+
+#hairhead{
+     position:absolute;
+    width:275px;
+    height:372px;
+    
+    
+    
+    
+}
+
+.hairheadmaledefault{
+     position:absolute;
+    width:275px;
+    height:372px;
+    background-image: url(../images/hair/default_hair_m_head_w.png);
+
+}
+
+.hairheadsoulseeker{
+     position:absolute;
+    width:275px;
+    height:372px;
+    background-image: url(../images/hair/soulseeker_hair_head_w.png);
+
+}
+
+.hairheadmalemonsterbuster{
+     position:absolute;
+    width:275px;
+    height:372px;
+    background-image: url(../images/hair/monsterbuster_hair_head_m_w.png);
+
+}
+
+
+/*HAIR BACKS*/
+
+#hairback{
+     position:absolute;
+    width:275px;
+    height:372px;
+    
+    
+    
+    
+}
+
+.hairbackmaledefault{
+     position:absolute;
+    width:275px;
+    height:372px;
+    background-image: url(../images/hair/default_hair_m_back.png);
+
+}
+
+.hairbacksoulseeker{
+     position:absolute;
+    width:275px;
+    height:372px;
+    background-image: url(../images/hair/soulseeker_hair_back.png);
+
+}
+
+.hairbackmalemonsterbuster{
+     position:absolute;
+    width:275px;
+    height:372px;
+    background-image: url(../images/hair/monsterbuster_hair_back_m.png);
+
+}
+
+
+
+
+/*HAIR BANGS*/
+
+#hairbangs{
+     position:absolute;
+    width:275px;
+    height:372px;
+    
+    
+    
+    
+}
+
+.hairbangsmaledefault{
+     position:absolute;
+    width:275px;
+    height:372px;
+    background-image: url(../images/hair/default_hair_m_bangs.png);
+
+}
+
+.hairbangssoulseeker{
+     position:absolute;
+    width:275px;
+    height:372px;
+    background-image: url(../images/hair/soulseeker_hair_bangs.png);
+
+}
+
+.hairbackmalemonsterbuster{
+     position:absolute;
+    width:275px;
+    height:372px;
+    background-image: url(../images/hair/monsterbuster_hair_bangs_m.png);
+
+}
+
